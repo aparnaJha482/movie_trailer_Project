@@ -1,5 +1,5 @@
 import webbrowser
-
+import fresh_tomatoes
 
 class Movie:
     def __init__(self, movie_title, movie_storyline):
@@ -37,6 +37,7 @@ harry_potter = Media("harry potter", "story of a supernatural kid and his powers
                            "https://www.youtube.com/watch?v=9hXH0Ackz6w")
 
 movies = [toy_story, avatar, krish, wolf_of_wall_street, life_of_pie,harry_potter]
+fresh_tomatoes.open_movies_page(movies)
 
 
 
