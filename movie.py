@@ -36,6 +36,8 @@ harry_potter = Media("harry potter", "story of a supernatural kid and his powers
                            "https://upload.wikimedia.org/wikipedia/en/a/a9/Harry_Potter_and_the_Deathly_Hallows.jpg",
                            "https://www.youtube.com/watch?v=9hXH0Ackz6w")
 
+movies = [toy_story, avatar, krish, wolf_of_wall_street, life_of_pie,harry_potter]
+
 
 
 
