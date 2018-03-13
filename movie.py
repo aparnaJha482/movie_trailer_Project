@@ -1,22 +1,29 @@
+#importing webbrowser module to open url from internet
 import webbrowser
+#importing fresh_tomatoes_module that stores movie trailer file
 import fresh_tomatoes
 
+#creating Movie class
 class Movie:
     def __init__(self, movie_title, movie_storyline):
         print "Movie constructor called"
+        #initialising variables
         self.title = movie_title
         self.storyline = movie_storyline
 
+#creating subclass Media
 class Media(Movie):
     def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube):
         print "Media constructor called"
+        #inheriting functions from class movie
         Movie.__init__(self, movie_title, movie_storyline)
         self.poster_image_url = poster_image
         self.trailer_youtube_url = trailer_youtube
-
+#defining function show_trailer and using function open to access url
     def show_trailer(self):
         webbrowser.open(self.trailer_youtube_url)
 
+#creating movie objects
 toy_story = Media("Toy story","story of a boy and his toys that comes to life",
                                     "http://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
                                     "https://www.youtube.com/watch?v=vwyZH85NQC4")
@@ -36,7 +43,9 @@ harry_potter = Media("harry potter", "story of a supernatural kid and his powers
                            "https://upload.wikimedia.org/wikipedia/en/a/a9/Harry_Potter_and_the_Deathly_Hallows.jpg",
                            "https://www.youtube.com/watch?v=9hXH0Ackz6w")
 
+#creating array list of movies
 movies = [toy_story, avatar, krish, wolf_of_wall_street, life_of_pie,harry_potter]
+#calling functionality of fresh_tomatoes to open file
 fresh_tomatoes.open_movies_page(movies)
 
 
