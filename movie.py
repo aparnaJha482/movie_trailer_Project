@@ -48,7 +48,8 @@ life_of_pie = Media("life of pie", "story of relation between man and animal",
                     "https://upload.wikimedia.org/wikipedia/en/5/57/Life_of_Pi_2012_Poster.jpg",
                     "https://www.youtube.com/watch?v=j9Hjrs6WQ8M")
 harry_potter = Media("harry potter", "story of a supernatural kid and his powers",
-                     "https://upload.wikimedia.org/wikipedia/en/a/a9/Harry_Potter_and_the_Deathly_Hallows.jpg",
+                     "https://upload.wikimedia.org/wikipedia/en/a/a9/"
+                     "Harry_Potter_and_the_Deathly_Hallows.jpg",
                      "https://www.youtube.com/watch?v=9hXH0Ackz6w")
 
 # creating array list of movies
