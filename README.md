@@ -27,7 +27,7 @@ RUN FILE
 ```
 
 
-##IMPLEMENTATION
+## HOW TO USE
 
 - after directing to website containing _list_ of **MOVIES** , _Poster_ _Image_ 
 along with their _Name_ opens.
