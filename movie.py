@@ -1,4 +1,4 @@
-# importing webbrowser module to open url from internet
+#importing webbrowser module to open url from internet
 import webbrowser
 # importing fresh_tomatoes_module that stores movie trailer file
 import fresh_tomatoes

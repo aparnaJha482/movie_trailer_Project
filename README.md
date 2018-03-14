@@ -9,20 +9,20 @@ Website that contains _Trailers_ of **_movies_**
 
 ##INSTALL
 
-```python
-instalL python 2.7
+```
+install python 2.7
 ```
 
 Download the **Repository** in computer
 
-```python
+```
 reach downloaded files
 ```
 
 
-open the 'movie.py' file in **python** 
+open the 'movie.py' file in **python IDLE** 
 
-```python
+```
 RUN FILE
 ```
 
