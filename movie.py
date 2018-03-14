@@ -41,7 +41,8 @@ krish = Media("krish", "story of a boy with supernatural powers",
               "https://upload.wikimedia.org/wikipedia/en/9/95/Krrish_poster.jpg",
               "https://www.youtube.com/watch?v=y0wzwujpkFg")
 wolf_of_wall_street = Media("wolf of wall street", "story of a man rising hig and making money ",
-                            "https://upload.wikimedia.org/wikipedia/en/d/d8/The_Wolf_of_Wall_Street_%282013%29.png",
+                            "https://upload.wikimedia.org/wikipedia/en/d/d8/"
+                            "The_Wolf_of_Wall_Street_%282013%29.png",
                             "https://www.youtube.com/watch?v=iszwuX1AK6A")
 life_of_pie = Media("life of pie", "story of relation between man and animal",
                     "https://upload.wikimedia.org/wikipedia/en/5/57/Life_of_Pi_2012_Poster.jpg",
