@@ -1,5 +1,8 @@
 # MOVIE TRAILERS
 
+A **website** containing _movie_ **trailers** of several movies with their 
+_poster_ _image_ and _movie_ name.
+
 ![MOVIE TRAILER PICTURE](trailerscreen.png)
 
 Website that contains _Trailers_ of **_movies_**
