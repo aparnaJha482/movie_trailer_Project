@@ -28,13 +28,12 @@ RUN FILE
 
 
 ## HOW TO USE
-
-- after directing to website containing _list_ of **MOVIES** , _Poster_ _Image_ 
+1. after directing to website containing _list_ of **MOVIES** , _Poster_ _Image_ 
 along with their _Name_ opens.
 
-- **CLICK** to the _poster_ _image_ of your desired movie whose **TRAILER**
+2. **CLICK** to the _poster_ _image_ of your desired movie whose **TRAILER**
  you wish to play.
  
- - **MOVIE TRAILER WINDOW** itself generates after the click on your _screen_
+ 3. **MOVIE TRAILER WINDOW** itself generates after the click on your _screen_
  
- - Return to the _Home_ page.
+ 4. Return to the _Home_ page.
