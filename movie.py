@@ -1,11 +1,12 @@
-#importing webbrowser module to open url from internet
+# importing webbrowser module to open url from internet
 import webbrowser
 # importing fresh_tomatoes_module that stores movie trailer file
 import fresh_tomatoes
 
 
-# creating Movie class
+# creating parent class Movie
 class Movie:
+    """This class consits of variables and way to its subclasses """
     def __init__(self, movie_title, movie_storyline):
         print "Movie constructor called"
         # initialising variables
@@ -15,6 +16,7 @@ class Movie:
 
 # creating subclass Media
 class Media(Movie):
+    """This is a subclass and contains movie information"""
     def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube):
         print "Media constructor called"
         # inheriting functions from class movie
@@ -24,6 +26,7 @@ class Media(Movie):
 
     # defining function show_trailer and using function open to access url
     def show_trailer(self):
+        """this class redirects to url provided"""
         webbrowser.open(self.trailer_youtube_url)
 
 
